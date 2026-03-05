@@ -1,7 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/montalban');
 @import url('https://fonts.cdnfonts.com/css/simple-runes');
 @import url('https://fonts.cdnfonts.com/css/helvetica-now-mt-micro');
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: rgb(0, 0, 0);
     background-image: url(background.avif);
@@ -602,4 +604,5 @@ padding: 5px 3px;
 .mainsection5{
     display: flex;
     justify-content: center;
+
 }
